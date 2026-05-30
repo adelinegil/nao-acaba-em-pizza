@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- borda do círculo -->
+  <circle cx="60" cy="60" r="54" fill="none" stroke="#537435" stroke-width="2"/>
+  <!-- gráfico de pizza: 3 fatias, r=27, centro=60,60 -->
+  <!-- 0° → 130°: ponto final cos130≈-0.643 sin130≈0.766 → (42.7, 80.7) -->
+  <path d="M 60 60 L 87 60 A 27 27 0 0 1 42.7 80.7 Z"
+        fill="none" stroke="#961941" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 130° → 260°: ponto final cos260≈-0.174 sin260≈-0.985 → (55.3, 33.4) -->
+  <path d="M 60 60 L 42.7 80.7 A 27 27 0 0 1 55.3 33.4 Z"
+        fill="none" stroke="#961941" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 260° → 360° -->
+  <path d="M 60 60 L 55.3 33.4 A 27 27 0 0 1 87 60 Z"
+        fill="none" stroke="#961941" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

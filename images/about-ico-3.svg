@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- borda do círculo -->
+  <circle cx="60" cy="60" r="54" fill="none" stroke="#537435" stroke-width="2"/>
+  <!-- pulso -->
+  <path d="M 50 82 L 50 88 Q 50 92 54 92 L 68 92 Q 72 92 72 88 L 72 82"
+        fill="none" stroke="#961941" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- corpo do punho (palma + dedos dobrados) -->
+  <path d="M 44 82 L 44 62 Q 44 57 49 57
+           L 49 52 Q 49 46 55 46 Q 61 46 61 52 L 61 57
+           L 63 57 L 63 52 Q 63 46 69 46 Q 75 46 75 52 L 75 57
+           Q 79 57 79 62 L 79 74 Q 79 82 72 82 L 50 82 Q 44 82 44 74 Z"
+        fill="none" stroke="#961941" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- divisórias entre dedos -->
+  <line x1="61" y1="57" x2="61" y2="73" stroke="#961941" stroke-width="2"/>
+  <line x1="75" y1="57" x2="75" y2="73" stroke="#961941" stroke-width="2"/>
+  <!-- polegar (direita) -->
+  <path d="M 79 65 Q 87 62 87 69 Q 87 76 79 74"
+        fill="none" stroke="#961941" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
